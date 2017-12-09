@@ -1,0 +1,9 @@
+demo.case: case2
+
+spring:
+  kafka:
+    consumer:
+      enable-auto-commit: false
+      group-id: mydemogroup
+    listener:
+      ack-mode: manual
